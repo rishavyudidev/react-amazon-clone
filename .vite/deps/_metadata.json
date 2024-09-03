@@ -1,0 +1,218 @@
+{
+  "hash": "1170c00d",
+  "browserHash": "fed74b91",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "69a26a18",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "a6eeed64",
+      "needsInterop": true
+    },
+    "react-redux": {
+      "src": "../../node_modules/react-redux/es/index.js",
+      "file": "react-redux.js",
+      "fileHash": "ab08be79",
+      "needsInterop": false
+    },
+    "redux-persist/integration/react": {
+      "src": "../../node_modules/redux-persist/es/integration/react.js",
+      "file": "redux-persist_integration_react.js",
+      "fileHash": "c73be2d1",
+      "needsInterop": false
+    },
+    "firebase/app": {
+      "src": "../../node_modules/firebase/app/dist/esm/index.esm.js",
+      "file": "firebase_app.js",
+      "fileHash": "ce67e76f",
+      "needsInterop": false
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "e68812ec",
+      "needsInterop": false
+    },
+    "@reduxjs/toolkit": {
+      "src": "../../node_modules/@reduxjs/toolkit/dist/redux-toolkit.esm.js",
+      "file": "@reduxjs_toolkit.js",
+      "fileHash": "1913d3d1",
+      "needsInterop": false
+    },
+    "redux-persist": {
+      "src": "../../node_modules/redux-persist/es/index.js",
+      "file": "redux-persist.js",
+      "fileHash": "ac0c6866",
+      "needsInterop": false
+    },
+    "redux-persist/lib/storage": {
+      "src": "../../node_modules/redux-persist/lib/storage/index.js",
+      "file": "redux-persist_lib_storage.js",
+      "fileHash": "e35498c0",
+      "needsInterop": true
+    },
+    "@mui/icons-material/CheckCircle": {
+      "src": "../../node_modules/@mui/icons-material/CheckCircle.js",
+      "file": "@mui_icons-material_CheckCircle.js",
+      "fileHash": "b0075543",
+      "needsInterop": true
+    },
+    "framer-motion": {
+      "src": "../../node_modules/framer-motion/dist/es/index.mjs",
+      "file": "framer-motion.js",
+      "fileHash": "f78c4061",
+      "needsInterop": false
+    },
+    "@mui/icons-material/ArrowRight": {
+      "src": "../../node_modules/@mui/icons-material/ArrowRight.js",
+      "file": "@mui_icons-material_ArrowRight.js",
+      "fileHash": "c5a495eb",
+      "needsInterop": true
+    },
+    "firebase/auth": {
+      "src": "../../node_modules/firebase/auth/dist/esm/index.esm.js",
+      "file": "firebase_auth.js",
+      "fileHash": "42384942",
+      "needsInterop": false
+    },
+    "react-loader-spinner": {
+      "src": "../../node_modules/react-loader-spinner/dist/esm/index.js",
+      "file": "react-loader-spinner.js",
+      "fileHash": "ca697007",
+      "needsInterop": false
+    },
+    "axios": {
+      "src": "../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "782085b7",
+      "needsInterop": false
+    },
+    "@mui/icons-material/LocationOnOutlined": {
+      "src": "../../node_modules/@mui/icons-material/LocationOnOutlined.js",
+      "file": "@mui_icons-material_LocationOnOutlined.js",
+      "fileHash": "cdbea1b8",
+      "needsInterop": true
+    },
+    "@mui/icons-material/ArrowDropDownOutlined": {
+      "src": "../../node_modules/@mui/icons-material/ArrowDropDownOutlined.js",
+      "file": "@mui_icons-material_ArrowDropDownOutlined.js",
+      "fileHash": "2e023825",
+      "needsInterop": true
+    },
+    "@mui/icons-material/ShoppingCart": {
+      "src": "../../node_modules/@mui/icons-material/ShoppingCart.js",
+      "file": "@mui_icons-material_ShoppingCart.js",
+      "fileHash": "7eeda969",
+      "needsInterop": true
+    },
+    "@mui/icons-material/Search": {
+      "src": "../../node_modules/@mui/icons-material/Search.js",
+      "file": "@mui_icons-material_Search.js",
+      "fileHash": "afda27d1",
+      "needsInterop": true
+    },
+    "@mui/icons-material/Logout": {
+      "src": "../../node_modules/@mui/icons-material/Logout.js",
+      "file": "@mui_icons-material_Logout.js",
+      "fileHash": "bf1aaad4",
+      "needsInterop": true
+    },
+    "react-slick": {
+      "src": "../../node_modules/react-slick/lib/index.js",
+      "file": "react-slick.js",
+      "fileHash": "e46e3e54",
+      "needsInterop": true
+    },
+    "react-router": {
+      "src": "../../node_modules/react-router/dist/index.js",
+      "file": "react-router.js",
+      "fileHash": "7b979b41",
+      "needsInterop": false
+    },
+    "@mui/icons-material/Star": {
+      "src": "../../node_modules/@mui/icons-material/Star.js",
+      "file": "@mui_icons-material_Star.js",
+      "fileHash": "102a3972",
+      "needsInterop": true
+    },
+    "@mui/icons-material/Api": {
+      "src": "../../node_modules/@mui/icons-material/Api.js",
+      "file": "@mui_icons-material_Api.js",
+      "fileHash": "5d70e7e2",
+      "needsInterop": true
+    },
+    "@mui/icons-material/Favorite": {
+      "src": "../../node_modules/@mui/icons-material/Favorite.js",
+      "file": "@mui_icons-material_Favorite.js",
+      "fileHash": "ccb74c65",
+      "needsInterop": true
+    },
+    "@mui/icons-material/ArrowCircleRight": {
+      "src": "../../node_modules/@mui/icons-material/ArrowCircleRight.js",
+      "file": "@mui_icons-material_ArrowCircleRight.js",
+      "fileHash": "38ea63f5",
+      "needsInterop": true
+    },
+    "@mui/icons-material/Menu": {
+      "src": "../../node_modules/@mui/icons-material/Menu.js",
+      "file": "@mui_icons-material_Menu.js",
+      "fileHash": "ece6fa47",
+      "needsInterop": true
+    },
+    "@mui/icons-material/Close": {
+      "src": "../../node_modules/@mui/icons-material/Close.js",
+      "file": "@mui_icons-material_Close.js",
+      "fileHash": "43032384",
+      "needsInterop": true
+    },
+    "@mui/icons-material/AccountCircle": {
+      "src": "../../node_modules/@mui/icons-material/AccountCircle.js",
+      "file": "@mui_icons-material_AccountCircle.js",
+      "fileHash": "fa56fd39",
+      "needsInterop": true
+    },
+    "@mui/icons-material/KeyboardArrowRight": {
+      "src": "../../node_modules/@mui/icons-material/KeyboardArrowRight.js",
+      "file": "@mui_icons-material_KeyboardArrowRight.js",
+      "fileHash": "506662af",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-AO3AVUWU": {
+      "file": "chunk-AO3AVUWU.js"
+    },
+    "chunk-S4244JTJ": {
+      "file": "chunk-S4244JTJ.js"
+    },
+    "chunk-HC64NG5Q": {
+      "file": "chunk-HC64NG5Q.js"
+    },
+    "chunk-GYOI4P2W": {
+      "file": "chunk-GYOI4P2W.js"
+    },
+    "chunk-OTY6O57J": {
+      "file": "chunk-OTY6O57J.js"
+    },
+    "chunk-275YHS7O": {
+      "file": "chunk-275YHS7O.js"
+    },
+    "chunk-4RXJZI6Q": {
+      "file": "chunk-4RXJZI6Q.js"
+    },
+    "chunk-2PA4WPI3": {
+      "file": "chunk-2PA4WPI3.js"
+    },
+    "chunk-OKLW23S7": {
+      "file": "chunk-OKLW23S7.js"
+    },
+    "chunk-ROME4SDB": {
+      "file": "chunk-ROME4SDB.js"
+    }
+  }
+}
