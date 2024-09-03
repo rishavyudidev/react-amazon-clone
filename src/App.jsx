@@ -1,44 +1,34 @@
-import Header from './components/header/Header';
-import Footer from './components/footer/Footer';
-import Home from './pages/Home';
-import { Route, Outlet, createBrowserRouter, createRoutesFromElements, RouterProvider, ScrollRestoration } from 'react-router-dom';
-import { productsData } from './api/api';
-import Sigin from './pages/Sigin';
-import Cart from './pages/Cart';
-import Registration from './pages/Registration';
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
+import Home from "./pages/Home";
+import Sigin from "./pages/Sigin";
+import Cart from "./pages/Cart";
+import Registration from "./pages/Registration";
 
-const Layout = () => {
-  return (
-    <div>
-      <Header />
-      <ScrollRestoration />
-      <Outlet />
-      <Footer />
-    </div>
-  )
-}
-
+const Layout = () => (
+  <div>
+    <Header />
+    <Outlet />
+    <Footer />
+  </div>
+);
 
 function App() {
-  const router = createBrowserRouter(
-    createRoutesFromElements(
-      <>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} loader={productsData}></Route>
-          <Route path='/cart' element={<Cart />}></Route>
-        </Route>
-        <Route path='/sigin' element={<Sigin />}></Route>
-        <Route path='/registration' element={<Registration/>}></Route>
-      </>
-    )
-  )
   return (
-    <>
-      <div className='font-bodyFont bg-gray-100'>
-        <RouterProvider router={router}></RouterProvider>
-      </div>
-    </>
-  )
+    <div className="font-bodyFont bg-gray-100">
+      <Router>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="cart" element={<Cart />} />
+          </Route>
+          <Route path="sigin" element={<Sigin />} />
+          <Route path="registration" element={<Registration />} />
+        </Routes>
+      </Router>
+    </div>
+  );
 }
 
-export default App
+export default App;
